@@ -13,9 +13,9 @@ mcp = FastMCP("postgres-server")
 # Database configuration
 DB_CONFIG = {
     "host": "localhost",
-    "database": "team_progress_db",
-    "user": "postgres",
-    "password": "mohab123"
+    "database": <db_name>,
+    "user": <db_user>,
+    "password": <db_password>
 }
 
 # ========== TOOLS ==========
